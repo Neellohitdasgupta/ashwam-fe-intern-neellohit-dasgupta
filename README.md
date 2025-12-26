@@ -4,7 +4,7 @@ A premium, colorful, and user-friendly responsive React frontend for conversatio
 
 ![Health Check-in App](https://img.shields.io/badge/React-18.2.0-blue) ![CSS3](https://img.shields.io/badge/CSS3-Responsive-green) ![Status](https://img.shields.io/badge/Status-Complete-success)
 
-## 🚀 Live Demo
+## 🚀 Live App
 
 **[Try the Live App →](https://neellohitdasgupta.github.io/ashwam-fe-intern-neellohit-dasgupta)**
 
