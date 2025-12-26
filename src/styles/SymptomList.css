@@ -1,0 +1,63 @@
+.symptom-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.symptom-list.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 2px dashed rgba(129, 230, 217, 0.5);
+  color: #4a5568;
+  position: relative;
+  overflow: hidden;
+}
+
+.empty-state::before {
+  content: '✨';
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.empty-state p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Mobile adjustments */
+@media (max-width: 767px) {
+  .symptom-list.empty {
+    min-height: 150px;
+  }
+  
+  .empty-state {
+    padding: 32px 16px;
+    border-radius: 12px;
+  }
+  
+  .empty-state p {
+    font-size: 1rem;
+  }
+}

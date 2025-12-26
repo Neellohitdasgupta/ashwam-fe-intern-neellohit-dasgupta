@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #2d3748;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px 0;
+}
+
+.app-header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 8px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.app-header p {
+  font-size: 1.1rem;
+  color: rgba(255,255,255,0.9);
+  font-weight: 400;
+}
+
+.app-main {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.symptom-picker-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.symptom-cards-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Mobile Layout */
+@media (max-width: 767px) {
+  .app {
+    padding: 16px;
+  }
+  
+  .app-header {
+    margin-bottom: 32px;
+    padding: 16px 0;
+  }
+  
+  .app-header h1 {
+    font-size: 1.75rem;
+  }
+  
+  .app-header p {
+    font-size: 1rem;
+  }
+  
+  .app-main {
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .symptom-picker-section,
+  .symptom-cards-section {
+    width: 100%;
+    min-width: unset;
+  }
+}
+
+/* Tablet adjustments */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .app {
+    padding: 24px;
+  }
+  
+  .app-main {
+    gap: 32px;
+  }
+}
