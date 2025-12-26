@@ -2,12 +2,15 @@
   "name": "health-checkin-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://neellohitdasgupta.github.io/ashwam-fe-intern-neellohit-dasgupta",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

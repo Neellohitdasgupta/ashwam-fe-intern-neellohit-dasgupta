@@ -4,6 +4,12 @@ A premium, colorful, and user-friendly responsive React frontend for conversatio
 
 ![Health Check-in App](https://img.shields.io/badge/React-18.2.0-blue) ![CSS3](https://img.shields.io/badge/CSS3-Responsive-green) ![Status](https://img.shields.io/badge/Status-Complete-success)
 
+## 🚀 Live Demo
+
+**[Try the Live App →](https://neellohitdasgupta.github.io/ashwam-fe-intern-neellohit-dasgupta)**
+
+Experience the colorful, interactive health check-in interface directly in your browser!
+
 ## 🎯 What Did I Build?
 
 I implemented a **complete end-to-end conversational health check-in application** that transforms the traditional medical form experience into an engaging, wellness-focused daily ritual. The app features:
