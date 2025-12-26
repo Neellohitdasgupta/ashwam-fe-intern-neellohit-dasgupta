@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ashwam-fe-intern-neellohit-dasgupta/static/css/main.e8fc0b35.css",
+    "main.js": "/ashwam-fe-intern-neellohit-dasgupta/static/js/main.198d1dfe.js",
+    "index.html": "/ashwam-fe-intern-neellohit-dasgupta/index.html",
+    "main.e8fc0b35.css.map": "/ashwam-fe-intern-neellohit-dasgupta/static/css/main.e8fc0b35.css.map",
+    "main.198d1dfe.js.map": "/ashwam-fe-intern-neellohit-dasgupta/static/js/main.198d1dfe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8fc0b35.css",
+    "static/js/main.198d1dfe.js"
+  ]
+}
